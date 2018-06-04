@@ -19,7 +19,7 @@
             <input id="selectedFile" type="file" onchange="readURL(this);" />
             <input type="button" value="Change image" onclick="document.getElementById('selectedFile').click();" />
             <br>
-            <img id="property-pic" src="home.png"  alt="Property Image" />
+            <img id="property-pic" src="home.png" alt="Property Image" />
           </section>
           <section class="property-details">
             <fieldset class="form-section">
@@ -42,24 +42,10 @@
           <button type="submit">Save Changes</button>
         </form>
       </section>
+      <footer role="content-info">Footer</footer>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript">
-      function readURL(input) {
-        if (input.files && input.files[0]) {
-          var reader = new FileReader();
-
-          reader.onload = function (e) {
-              $('#property-pic')
-                  .attr('src', e.target.result);
-          };
-
-          reader.readAsDataURL(input.files[0]);
-        }
-      }
-    </script>
+    <script type="text/javascript" src="upload.js"></script>
   </body>
-
-  
 </html>

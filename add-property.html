@@ -42,24 +42,10 @@
           <button type="submit">Add Property</button>
         </form>
       </section>
+      <footer role="content-info">Footer</footer>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript">
-      function readURL(input) {
-        if (input.files && input.files[0]) {
-          var reader = new FileReader();
-
-          reader.onload = function (e) {
-              $('#property-pic')
-                  .attr('src', e.target.result);
-          };
-
-          reader.readAsDataURL(input.files[0]);
-        }
-      }
-    </script>
+    <script type="text/javascript" src="upload.js"></script>
   </body>
-
-  
 </html>

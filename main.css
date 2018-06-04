@@ -82,11 +82,16 @@ input[type='file'] {
 	text-align: left;
 }
 
-.form-section label {
+label {
 	font-size: 0.6em;
 	margin-top: 0;
 }
 
 input[type='text'] {
 	font-size: 0.8em;
+}
+
+.expense-form-section {
+	width: 50%;
+	margin: 0 auto;
 }
