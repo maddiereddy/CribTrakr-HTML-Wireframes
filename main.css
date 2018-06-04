@@ -26,7 +26,7 @@ nav {
 }
 
 header {
-  padding: 45px 15px;
+  padding: 25px 15px;
 }
 
 section {
@@ -94,4 +94,8 @@ input[type='text'] {
 .expense-form-section {
 	width: 50%;
 	margin: 0 auto;
+}
+
+.icons {
+	float: right;
 }
